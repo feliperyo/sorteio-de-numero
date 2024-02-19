@@ -4,12 +4,9 @@
 <h3 align="center">Estudo de HTML, CSS, JavaScript e Responsividade.</h3>
 <br>
 <br>
-<div align="center">
-  <img width="350px" src="https://github.com/feliperyo/sorteio-de-numero/blob/master/assets/mobile%20e%20tablet.png?raw=true" /> 
-</div>
 
 <div align="center">
-  <img width="600px" src="https://github.com/feliperyo/sorteio-de-numero/blob/master/assets/desktop%20edit.png?raw=true"/>
+  <img width="700px" src="https://github.com/feliperyo/sorteio-de-numero/blob/master/assets/mockup.png?raw=true"/>
 </div>
 <br>
 <br>
