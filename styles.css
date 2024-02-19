@@ -1,0 +1,137 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+}
+
+body {
+    width: 100vw;
+    background-color: rgb(10, 8, 44);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37.5px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+input {
+    width: 342px;
+    height: 74px;
+    padding-left: 16px;
+    border-radius: 14px;
+    border: 1px solid aliceblue;
+    background-color: rgb(38, 35, 85);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    letter-spacing: 0px;
+    text-align: left;
+
+}
+
+.e-entre-input {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 37.5px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 342px;
+    height: 72px;
+    padding: 0px, 76px, 0px, 76px;
+    border-radius: 10px;
+    background: #AEC346;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 3px;
+    margin-top: 60px;
+    cursor: pointer;
+    box-shadow: 0px 18px 40px 0px #AEC34659;
+    border: none;
+
+}
+
+button:hover {
+    background: #d6e686;
+}
+
+button:active {
+    opacity: 0.5;
+}
+
+.numero-sorteado {
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 37.5px;
+
+}
+
+.fantasma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+    visibility: hidden;
+}
+
+@media screen and (max-width: 500px) {
+
+    img {
+        width: 175px;
+    }
+
+
+    h1{
+       font-size: 40px;
+    }
+
+    main {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    input {
+        width: 250px;
+        height: 60px;
+        padding-left: 0px;
+        text-align: center;
+        font-size: 35px;
+    }
+}

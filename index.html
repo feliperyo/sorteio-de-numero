@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteio de Números</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="./assets/dado.png" alt="img-dado">
+        <h1>Sorteio de Números</h1>
+    </header>
+
+    <div class="text-sort">
+        <h3>Sortear um número entre:</h3>
+    </div>
+
+    <main>
+        <input type="number" id="min" placeholder="?">
+        <p class="e-entre-input">e</p>
+        <input type="number" id="max" placeholder="?">
+    </main>
+
+    <div class="button">
+        <button>Sortear</button>
+    </div>
+
+    <div class="fantasma">
+        <p class="numero-sorteado"></p>
+    </div>
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
