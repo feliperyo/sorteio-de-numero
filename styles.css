@@ -134,6 +134,7 @@ button:active {
         text-align: center;
         font-size: 35px;
     }
+}
 
     @media screen and (max-width: 400px) {
 
