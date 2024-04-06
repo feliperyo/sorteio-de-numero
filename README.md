@@ -11,5 +11,7 @@
 <br>
 <br>
 <div align="center">
+  <br>
+  <p>Clique abaixo para testar:</p>
 <a href="https://feliperyo.github.io/sorteio-de-numero/" target="_blank"><img src="https://img.shields.io/website-up-down-green-red/http/cv.lbesson.qc.to.svg"></a>
 </div>
